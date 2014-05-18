@@ -52,17 +52,30 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+		//'mysql' => array(
+		//	'driver'    => 'mysql',
+		//	'host'      => 'localhost',
+		//	'database'  => 'database',
+		//	'username'  => 'root',
+		//	'password'  => '',
+		//	'charset'   => 'utf8',
+		//	'collation' => 'utf8_unicode_ci',
+		//	'prefix'    => '',
+		//),
+        
+        'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => 'databases.aii.avans.nl:3306',
+			'database'  => 'tjwvoogt_db',
+			'username'  => 'tjwvoogt',
+			'password'  => 'Ab12345',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),
 
+        
+        
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
