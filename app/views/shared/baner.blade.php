@@ -1,12 +1,16 @@
 <header>
+	<div class="container">
 
-	<div class="imageHolder">
+		<div class="imageHolder">
 
-		<h1 style="color:white;">Image</h1>
+			<h1 style="color:white;">Image</h1>
+
+		</div>
+		<div class="loginHolder">
+
+			<h1 style="color:white;">Login</h1>
+
+		</div>
 
 	</div>
-	<div class="loginHolder">
-
-	</div>
-
 </header>

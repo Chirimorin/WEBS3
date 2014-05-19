@@ -8,9 +8,9 @@
 
 	<body>
 
+		@include('shared.baner')
+		
 		<div class="container">
-			
-			@include('shared.baner')
 
 			@include('shared.navigation')
 
