@@ -7,7 +7,7 @@ header{
 	padding: 0px;
 	height: 100px;
 	width: 100%;
-	background-color: #00FF40;
+	background-color: #00AA40;
 }
 
 .imageHolder{
@@ -28,8 +28,8 @@ header{
 
 .container{
 	clear: both;
-	border: 1px solid #00ff40;
-	box-shadow: 0px 0px 45px 30px #00ff40;
+	border: 1px solid #00AA40;
+	box-shadow: 0px 0px 45px 30px #00AA40;
 	/*-moz-box-shadow: 0px 0px 15px 4px #00ff40;
 	-webkit-box-shadow: 0px 0px 15px 4px #00ff40;*/
 }

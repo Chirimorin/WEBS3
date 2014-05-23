@@ -8,7 +8,7 @@
 
 	<body>
 
-		@include('shared.baner')
+		@include('shared.header')
 		
 		<div class="container">
 
