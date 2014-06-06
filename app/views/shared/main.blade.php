@@ -9,12 +9,18 @@
 	<body>
 
 		<div class="container">
+
+			<div class="row">
 			
 			@include('shared.baner')
-
+			
+			</div>
+			
 			@include('shared.navigation')
 
 			@yield('content')
+
+
 
 		</div>
 
