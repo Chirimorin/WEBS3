@@ -7,6 +7,30 @@ header{
 	margin: 0px;
 	padding: 0px;
 	height: 100px;
-	width: 100px;
-	background-color: #00FF40;
+	width: 100%;
+	background-color: #00AA40;
+}
+
+.imageHolder{
+	float: left;
+	max-width: 70%;
+	height: auto;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px rgba(3, 3, 3, 0.3);
+}
+
+.loginHolder{
+	float: right;
+	min-width: 200px;
+	width: 30%;
+	height: auto;
+	background-color: blue;
+}
+
+.container{
+	clear: both;
+	border: 1px solid #00AA40;
+	box-shadow: 0px 0px 45px 30px #00AA40;
+	/*-moz-box-shadow: 0px 0px 15px 4px #00ff40;
+	-webkit-box-shadow: 0px 0px 15px 4px #00ff40;*/
 }
