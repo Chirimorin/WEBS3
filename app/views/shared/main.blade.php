@@ -14,8 +14,6 @@
 
 			<div class="row">
 			
-			@include('shared.baner')
-			
 			</div>
 			
 			@include('shared.navigation')
