@@ -7,12 +7,13 @@
         	$forum = new Forum;
 			$forum->title = "Campings";
 			$forum->description = "Dingen weten over een camping; winkels, camping plaatsen en restaurants.";
-			$forum->parent = "";
+			$forum->parent = "1";
 			$forum->save();
 
 			$topic = new Topic;
 			$topic->public = true;
-			$post->topics()->save($topic);
+			$topic->views = 0;
+			$forum->topics()->save($topic);
 
             return View::make('database.fill');
         }
