@@ -18,7 +18,7 @@ class CreateForumTable extends Migration {
             $table->string('title');
             $table->text('description')->nullable();
 			$table->timestamps();
-            $table->integer('parent')->unsigned();
+            $table->integer('parent')->unsigned()->nullable();
             $table->foreign('parent')->references('id')->on('forum')->nullable();
 		});
 	}
