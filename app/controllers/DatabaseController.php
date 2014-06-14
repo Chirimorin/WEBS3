@@ -30,7 +30,7 @@
 				$topic->delete();
 			}
 
-			$forums = Forum::all();
+			$forums = Forum::orderBy('id', 'DESC')->get();
 			foreach ($forums as $forum) {
 				$forum->delete();
 			}
