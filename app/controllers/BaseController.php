@@ -7,6 +7,9 @@ class BaseController extends Controller {
 	 *
 	 * @return void
 	 */
+
+	protected $layout = 'shared.main';
+
 	protected function setupLayout()
 	{
 		if ( ! is_null($this->layout))

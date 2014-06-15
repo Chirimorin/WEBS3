@@ -1,1 +1,11 @@
-<h2>database is gevult</h2>
+@extends('shared.main')
+
+@section ('title')
+	Database Gevuld
+@stop
+
+@section ('content')
+	
+	<h2>Database is gevuld</h2>
+	
+@stop

@@ -10,15 +10,15 @@
 
 		@include('shared.header')
 		
-		<div class="container">
+		<div class="container greenShadow">
 
 			<div class="row">
 			
-			</div>
-			
-			@include('shared.navigation')
+				<!--@include('shared.navigation')-->
 
-			@yield('content')
+				@yield('content')
+
+			</div>
 
 
 

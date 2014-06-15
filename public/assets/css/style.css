@@ -11,26 +11,40 @@ header{
 	background-color: #00AA40;
 }
 
-.imageHolder{
-	float: left;
-	max-width: 70%;
-	height: auto;
-	font-weight: bold;
-	text-shadow: 0px 0px 3px rgba(3, 3, 3, 0.3);
-}
-
-.loginHolder{
-	float: right;
-	min-width: 200px;
-	width: 30%;
-	height: auto;
-	background-color: blue;
-}
-
 .container{
 	clear: both;
+}
+
+.greenShadow{
 	border: 1px solid #00AA40;
 	box-shadow: 0px 0px 45px 30px #00AA40;
-	/*-moz-box-shadow: 0px 0px 15px 4px #00ff40;
-	-webkit-box-shadow: 0px 0px 15px 4px #00ff40;*/
+	-moz-box-shadow: 0px 0px 45px 30px #00AA40;
+	-webkit-box-shadow: 0px 0px 45px 30px #00AA40;
+}
+
+.white{
+	color: white;
+}
+
+.middleheader{
+	vertical-align:middle;
+	line-height: 100px;
+}
+
+.categoriesItem{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	border: 4px solid #FF0000;
+}
+
+.categoriesItem:hover{
+	background-color: #FFCC00;
+}
+
+.endItem{
+	margin: 20px;
+	color: white;
+	opacity: 0.0001;
+	width: 100%;
 }

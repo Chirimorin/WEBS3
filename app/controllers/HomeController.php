@@ -4,7 +4,8 @@ class HomeController extends BaseController {
 
 	public function home()
 	{
-		return View::make('home.hello');
+		$categories = Forum::whereNull('parent')->get();
+		return View::make('home.hello')->with('categories', $categories);;
 	}
 
 }
